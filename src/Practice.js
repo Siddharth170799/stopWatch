@@ -37,7 +37,7 @@ import React, { useEffect, useRef, useState } from "react";
 
 const Practice = () => {
   const [minutes, setMinutes] = useState(0);
-  const [seconds, setSeconds] = useState(53);
+  const [seconds, setSeconds] = useState(0);
   const timerRef = useRef(null);
 
   const startTimer = () => {
