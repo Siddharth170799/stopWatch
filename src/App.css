@@ -85,6 +85,10 @@
   background-color: #f44336;
   color: white;
 }
+.reverse {
+  background-color: blueviolet;
+  color: #ff9800;
+}
 
 .btn:hover {
   opacity: 0.8;
